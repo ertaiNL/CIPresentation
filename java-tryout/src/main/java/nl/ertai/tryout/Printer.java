@@ -2,7 +2,7 @@ package nl.ertai.tryout;
 
 public class Printer {
 
-	public String printText() {
+	public static String printText() {
 		return "blaat";
 	}
 		
