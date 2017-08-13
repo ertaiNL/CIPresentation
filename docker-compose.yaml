@@ -1,0 +1,7 @@
+my-tomcat-server:
+  build: .
+  environment:
+      JAVA_OPTS: "-Djava.awt.headless=true"
+  container_name: runner
+  ports:
+      - "8081:8080"
