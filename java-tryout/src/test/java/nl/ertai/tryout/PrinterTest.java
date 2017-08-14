@@ -7,11 +7,15 @@ public class PrinterTest {
 	
     @Test
     public void printText() {
-        Printer tester = new Printer(); // MyClass is tested
-
         // assert statements
-        assertEquals("blaat", tester.printText());
-    }	
+        assertEquals("blaat", Printer.printText());
+    }
+    
+    @Test
+    public void printTextFail() {
+        // assert statements
+        assertEquals("blaat2", Printer.printText());
+    }
 	
 }	
 	
